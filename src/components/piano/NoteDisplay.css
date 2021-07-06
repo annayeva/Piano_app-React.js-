@@ -1,0 +1,8 @@
+#note-indicator {
+  display: block;
+  height: 45px;
+  margin: 40px auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30pt;
+}

@@ -1,0 +1,7 @@
+.keyboard {
+  width: 80vw;
+  height: 35vw;
+  margin: 0 10vw 100px 10vw;
+  display: flex;
+  flex-direction: horizontal;
+}

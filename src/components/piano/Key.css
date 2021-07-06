@@ -1,0 +1,47 @@
+.key {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  border: 1px solid #000000;
+  border-radius: 0 0 5px 5px;
+  outline: none;
+  position: relative;
+  font-size: 16pt;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding-bottom: 20px;
+}
+
+.key:content {
+  opacity: 0.5;
+}
+
+.key.white {
+  height: 100%;
+  width: 12.5%;
+  background-color: #FFFFFF;
+  color: #000000;
+  z-index: 1;
+}
+
+.key.black {
+  height: 60%;
+  width: 8.75%;
+  background-color: #444444;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+.key.pressed {
+  background-color: red;
+}
+
+.key {
+  margin-right: -1px;
+}
+
+.key.white + .key.black, .key.black + .key.white {
+  margin-left: -4.375%;
+}
